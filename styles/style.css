@@ -53,6 +53,7 @@
 }
 
 .sala img {
+    position: relative;
     width: 581px;
     height: 613px;
     margin-top: 33px;
@@ -78,6 +79,7 @@
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
+    margin-left: -18px;
 }
 
 .midel button {
@@ -148,4 +150,55 @@ button a {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+}
+
+/*------------------------
+footer section style
+ ------------------------- */
+footer {
+    background-color: #161616;
+    width: 1600px;
+    height: 444px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 0px;
+    align-content: space-evenly;
+}
+
+.goal-h1 {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1320px;
+    height: 0px;
+}
+
+.link {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.link a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+}
+
+.footer-icon {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer-icon i {
+    margin-left: 10px;
 }

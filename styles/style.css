@@ -3,11 +3,25 @@
  ----------------*/
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=Lobster&family=Open+Sans:wght@600&family=Poppins:wght@400;500;600;700&family=Roboto+Condensed&family=Roboto:wght@400;700&display=swap');
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+
 /*----------------
  top section style
  ----------------- */
 
 .top-section {
+    width: 1321px;
+    height: 646px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around;
+    align-items: center; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -16,12 +30,14 @@
     margin: 50px 140px;
 }
 
+
 .section {
     width: 531px;
     height: 424px;
-    margin-top: 111px;
-    margin-bottom: 111px;
+    /* margin-top: 111px;
+    margin-bottom: 111px; */
 }
+
 
 .top-h1 {
     font-family: 'Poppins', sans-serif;
@@ -33,7 +49,6 @@
 .top-p {
     font-weight: 400;
     font-size: 16px;
-    margin: 0%;
     color: #FFFFFF;
 }
 
@@ -53,10 +68,9 @@
 }
 
 .sala img {
-    position: relative;
     width: 581px;
     height: 613px;
-    margin-top: 33px;
+    /* margin-top: 33px; */
 }
 
 /*---------------
@@ -67,6 +81,7 @@
     grid-template-columns: 25% 75%;
     margin-left: 140px;
     margin-right: 140px;
+    justify-content: space-around;
 }
 
 
@@ -79,7 +94,7 @@
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    margin-left: -18px;
+    /* margin-left: -18px; */
 }
 
 .midel button {
@@ -159,12 +174,12 @@ footer {
     background-color: #161616;
     width: 1600px;
     height: 444px;
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     margin-top: 130px;
     margin-bottom: 0px;
-    align-content: space-evenly;
 }
 
 .goal-h1 {
@@ -201,4 +216,47 @@ hr {
 
 .footer-icon i {
     margin-left: 10px;
+}
+
+.footer-icon a {
+    color: #FFFFFF;
+}
+
+/* ------------------------------------
+                index-2 styl
+--------------------------------------- */
+
+/*----------- button style--------- */
+.bolg2 button {
+    background-color: #DD0000;
+}
+
+.bolg2 a {
+    color: #FFFFFF;
+}
+
+.blog3 button {
+    background-color: #FFFFFF;
+}
+
+.blog3 button a {
+    color: #161616;
+}
+
+/* -------flag style------- */
+.flags {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.flag {
+    border: 2px solid #E8E8E8;
+    padding: 53px 30px;
+    border-radius: 10px;
+}
+
+.flag-img {
+    display: flex;
+    gap: 22px;
 }

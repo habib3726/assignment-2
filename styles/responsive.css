@@ -1,0 +1,78 @@
+/*--------
+             Media Query style
+---------------------*/
+
+@media screen and (max-width:768px) {
+
+    /* body {
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+    } */
+    /* .conteiner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    } */
+
+    .top-section {
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .section {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .top-h1 {
+        font-size: font-size: 22px;
+    }
+
+    .sala img {
+        width: auto;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .midel-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .midels {
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player {
+        width: 335px;
+        height: 388.69px;
+    }
+
+    .player img {
+        width: 100%;
+    }
+
+
+    .link {
+        flex-direction: column;
+        color: #B9B9B9;
+        gap: 20px;
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+        gap: 50px;
+    }
+
+
+
+}

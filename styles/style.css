@@ -6,7 +6,6 @@
 body {
     width: 1600px;
     margin-top: 22px;
-    border: 2px solid salmon;
 }
 
 /*----------------
@@ -30,8 +29,6 @@ body {
 .section {
     width: 531px;
     height: 424px;
-    /* margin-top: 111px;
-    margin-bottom: 111px; */
 }
 
 
@@ -66,7 +63,6 @@ body {
 .sala img {
     width: 581px;
     height: 613px;
-    /* margin-top: 33px; */
 }
 
 /*---------------
@@ -207,10 +203,6 @@ hr {
     font-size: 30px;
     text-align: center;
 }
-
-/* .footer-icon i {
-    gap: 100px;
-} */
 
 .footer-icon a {
     color: #FFFFFF;

@@ -1,19 +1,16 @@
 /*--------
              Media Query style
 ---------------------*/
+/* phone section */
 
 @media screen and (max-width:768px) {
 
-    /* body {
-        width: 90%;
+    body {
+        width: 100%;
         margin: 0%;
         padding: 0%;
-    } */
-    /* .conteiner {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    } */
+    }
+
 
     .top-section {
         width: 100%;
@@ -74,5 +71,78 @@
     }
 
 
+
+}
+
+/* tablet secton */
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .top-section {
+        width: auto;
+        height: 398px;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        padding: 20PX;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .top-h1 {
+        font-size: 40px;
+    }
+
+    .sala img {
+        width: 323px;
+        height: auto;
+        margin-top: -30px;
+    }
+
+    .midel-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .midels {
+        width: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .player {
+        width: 357px;
+        height: 414.21px;
+    }
+
+    .player img {
+        width: 100%;
+    }
+
+
+    .link {
+        flex-direction: column;
+        color: #B9B9B9;
+        gap: 20px;
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+        gap: 50px;
+    }
 
 }
